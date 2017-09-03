@@ -1,0 +1,703 @@
+@font-face {
+  font-family: 'whatever it takes', sans-serif;
+  src: url('../font/whatever it takes bold.ttf');
+}
+@font-face {
+  font-family: 'whatever it takes', sans-serif;
+  src: url('../font/whatever it takes.ttf');
+}
+.first {
+  background-color: #202124;
+  background-image: url("../img/homeBG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1000;
+}
+.first header {
+  padding-top: 22px;
+}
+.first header ul li {
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 10px;
+}
+.first header ul li .active {
+  color: #e8500e;
+}
+.first header ul li a {
+  color: #fcfbf9;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+.first header ul li a:hover {
+  color: #e8500e;
+}
+.first .order {
+  text-align: center;
+  margin-top: 205px;
+  float: none !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.first .order h3 {
+  color: #ffffff;
+  letter-spacing: 4px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 42px;
+  font-weight: normal;
+  margin-bottom: 23px;
+}
+.first .order p {
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 50px;
+}
+.first .order form {
+  /* Firefox 19+ */
+  /* Firefox 18- */
+}
+.first .order form input {
+  max-width: 344px;
+  width: 100%;
+  height: 55px;
+  border-radius: 3px;
+  border: none;
+  text-indent: 27px;
+  margin-right: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: #bbbcc0;
+}
+.first .order form ::-webkit-input-placeholder {
+  color: #bbbcc0;
+}
+.first .order form ::-moz-placeholder {
+  color: #bbbcc0;
+}
+.first .order form :-moz-placeholder {
+  color: #bbbcc0;
+}
+.first .order form :-ms-input-placeholder {
+  color: #bbbcc0;
+}
+.first .order form button {
+  border-radius: 3px;
+  padding: 18px 32px 18px 48px;
+  background-color: #e8500e;
+  color: #ffffff;
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+}
+.first .order form button img {
+  margin-left: 35px;
+}
+.first .order .chose {
+  margin-top: 80px;
+  position: relative;
+}
+.first .order .chose img {
+  margin-bottom: 17px;
+}
+.first .order .chose p {
+  color: #ffffff;
+  font-family: 'whatever it takes', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+.first .order .chose .arrow,
+.first .order .chose .arrow_dot {
+  position: absolute;
+  top: -27px;
+  right: -70px;
+}
+.popularFood {
+  margin-top: 100vh;
+  padding-bottom: 128px;
+  background-image: url('../img/popularFood_bg.jpg');
+  background-size: cover;
+}
+.popularFood .location {
+  background-color: #fcfbf9;
+  text-align: center;
+  border-bottom: 1px solid #e6e6e6;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+.popularFood .location h5 {
+  margin: 27px 0;
+  color: #43434c;
+}
+.popularFood .location h5 a {
+  color: #e8500e;
+}
+.popularFood .heading {
+  text-align: center;
+  margin-top: 55px;
+}
+.popularFood .heading h3 {
+  color: #26262b;
+  margin-bottom: 20px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 32px;
+  font-weight: normal;
+}
+.popularFood .heading h5 {
+  color: #2e2e32;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+.popularFood .meals {
+  margin-top: 65px;
+}
+.popularFood .meals .dish {
+  background-color: #fcfbf9;
+  border-radius: 3px;
+}
+.popularFood .meals .dish .description {
+  padding: 20px 24px 24px 16px;
+  color: #414551;
+  border-left: 1px solid #ededed;
+  border-right: 1px solid #ededed;
+}
+.popularFood .meals .dish .description h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 21px;
+  font-weight: normal;
+  margin-bottom: 23px;
+}
+.popularFood .meals .dish .description p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 28px;
+}
+.popularFood .meals .dish .description div {
+  width: 100%;
+}
+.popularFood .meals .dish .description div span {
+  display: inline-block;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+}
+.popularFood .meals .dish .description div a {
+  display: inline-block;
+  color: #e8500e;
+  border: 2px dashed #e8500e;
+  border-radius: 3px;
+  padding: 6px 15px;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  float: right;
+}
+.popularFood .meals .dish .reviews {
+  border: 1px solid #ededed;
+  display: inline-block;
+  width: 100%;
+}
+.popularFood .meals .dish .reviews .cafe {
+  display: inline-block;
+  padding: 10px 16px;
+  float: left;
+  width: 74%;
+  padding-right: 0;
+  border-right: 1px solid #ededed;
+}
+.popularFood .meals .dish .reviews .cafe img {
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+}
+.popularFood .meals .dish .reviews .cafe div {
+  display: inline-block;
+  padding-top: 5px;
+  padding-bottom: 6px;
+}
+.popularFood .meals .dish .reviews .cafe div h5 {
+  color: #000000;
+  margin: 0;
+  margin-bottom: 3px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+}
+.popularFood .meals .dish .reviews .cafe div h6 {
+  color: #748796;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+.popularFood .meals .dish .reviews .likes {
+  text-align: center;
+  float: right;
+  width: 26%;
+}
+.popularFood .meals .dish .reviews .likes div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 4.5em;
+}
+.popularFood .meals .dish .reviews .likes div span {
+  color: #748796;
+  font-size: 14px;
+  font-weight: 300;
+}
+.popularFood .meals .dish .reviews .likes div span.glyphicon {
+  color: #f292a7;
+  margin-right: 4px;
+}
+.orderSteps {
+  background: url('../img/order_bg.png') no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin-top: -26px;
+}
+.orderSteps .steps_heading {
+  margin-top: 100px;
+}
+.orderSteps .steps_heading h4 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 32px;
+  font-weight: normal;
+  color: #d8bea5;
+}
+.orderSteps .steps {
+  position: relative;
+  padding: 0 35px 0 35px;
+}
+.orderSteps .steps .block h5 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 24px;
+  font-weight: normal;
+  color: #ffffff;
+  margin: 0;
+  margin-top: 37px;
+}
+.orderSteps .steps .block p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #ffffff;
+  margin-top: 25px;
+}
+.orderSteps .steps .block .arrow_step {
+  position: absolute;
+  top: 73px;
+  left: 270px;
+}
+.orderSteps .steps .block .arrow_dotstep {
+  position: absolute;
+  top: -23px;
+  left: 240px;
+}
+.orderSteps .steps .block:nth-child(2) {
+  margin-top: 103px;
+}
+.orderSteps .pay h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0;
+  margin-top: 50px;
+  padding-bottom: 90px;
+  color: #d8bea5;
+}
+.restaurants {
+  background: url('../img/restoran_bg.jpg');
+  padding: 105px 0 135px 0;
+}
+.restaurants .restHeading h5 {
+  color: #414551;
+  font-family: 'Roboto Slab', serif;
+  font-size: 24px;
+  font-weight: normal;
+}
+.restaurants .restHeading ul {
+  padding-top: 13px;
+  float: right;
+}
+.restaurants .restHeading ul li {
+  padding: 0 20px;
+}
+.restaurants .restHeading ul li a {
+  color: #414551;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.restaurants .restHeading ul li a:hover {
+  color: #e8500e;
+}
+.restaurants .rest {
+  margin-top: 22px;
+}
+.restaurants .rest .restBlock {
+  margin-top: 27px;
+  background-color: #fcfbf9;
+  border: 1px solid #ededed;
+  padding: 15px;
+}
+.restaurants .rest .restBlock .restLogo {
+  float: left;
+  margin-right: 17px;
+}
+.restaurants .rest .restBlock .restInfo h5 {
+  color: #414551;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  margin-top: 6px;
+}
+.restaurants .rest .restBlock .restInfo h6 {
+  color: #748796;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 18px;
+  margin-bottom: 13px;
+}
+.restaurants .rest .restBlock .restInfo .options .price,
+.restaurants .rest .restBlock .restInfo .options .time,
+.restaurants .rest .restBlock .restInfo .options .rating {
+  display: inline-block;
+}
+.restaurants .rest .restBlock .restInfo .options .price,
+.restaurants .rest .restBlock .restInfo .options .time {
+  margin-right: 40px;
+}
+.restaurants .rest .restBlock .restInfo .options .price img,
+.restaurants .rest .restBlock .restInfo .options .time img {
+  margin-right: 10px;
+}
+.restaurants .rest .restBlock .restInfo .options .rating span {
+  margin-left: 10px;
+}
+.restaurants .rest .restBlock .restInfo .options span {
+  color: #748796;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+}
+.deliveryApps {
+  background: url('../img/apps_bg.png') no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.deliveryApps .phone img {
+  position: absolute;
+  top: -21px;
+  left: 136px;
+}
+.deliveryApps .apps {
+  color: #fcfaf8;
+  padding: 60px 0 50px;
+}
+.deliveryApps .apps h4 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 26px;
+  font-weight: normal;
+  margin: 0;
+}
+.deliveryApps .apps p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  margin: 34px 0;
+}
+footer {
+  background: url('../img/footer_bg.jpg') no-repeat;
+  background-size: cover;
+  margin-top: -5px;
+  padding: 80px 0 95px 0;
+}
+footer .row:last-child {
+  margin-top: 90px;
+}
+footer h4 {
+  color: #fff;
+  font-size: 32px;
+  font-family: 'whatever it takes', sans-serif;
+  margin: 0;
+}
+footer h4 span {
+  font-weight: bold;
+  color: #e8500e;
+}
+footer h5 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 21px;
+  font-weight: 300;
+  color: #ffffff;
+  margin: 0;
+  margin-bottom: 12px;
+}
+footer img {
+  margin-right: 8px;
+}
+footer .main {
+  padding-left: 0;
+  line-height: 32.5px;
+  float: left;
+  color: #a2a2a3;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+footer li {
+  margin-top: 6px;
+  list-style: none;
+}
+footer li a {
+  color: #a2a2a3;
+  text-decoration: none;
+}
+footer li a:hover {
+  color: #e8500e;
+}
+footer .left {
+  margin-right: 65px;
+}
+footer .special span {
+  color: #fff;
+  margin-right: 15px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 21px;
+  font-weight: 300;
+}
+footer .special a {
+  color: #e8500e;
+  font-family: 'whatever it takes', sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+}
+@media screen and (max-width: 479px) {
+  .first {
+    position: static;
+    text-align: center;
+  }
+  .first .order {
+    margin-top: 35px;
+  }
+  .first .order h3 {
+    letter-spacing: 0;
+    margin-bottom: 23px;
+  }
+  .first .order p {
+    letter-spacing: 0px;
+    margin-bottom: 30px;
+  }
+  .first .order form button {
+    margin-top: 15px;
+  }
+  .first .chose .arrow {
+    top: 80px !important;
+    right: -40px !important;
+    transform: rotate(90deg);
+  }
+  .first .chose .arrow_dot {
+    top: 85px !important;
+    left: -51px !important;
+    transform: rotate(90deg) scale(1, -1);
+  }
+  .popularFood {
+    padding-bottom: 20px;
+    margin-top: 0px;
+  }
+  .popularFood .reviews .cafe {
+    width: 80% !important;
+  }
+  .popularFood .reviews .cafe h6 {
+    font-size: 12px !important;
+  }
+  .popularFood .reviews .likes {
+    width: 20% !important;
+  }
+  .orderSteps .steps {
+    padding: 0;
+  }
+  .orderSteps .steps .block .arrow_step {
+    display: none;
+  }
+  .orderSteps .steps .block img.arrow_dotstep {
+    display: none;
+  }
+  .orderSteps .steps .block h5 {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .orderSteps .steps .block p {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  .orderSteps .steps .block:nth-child(2) {
+    margin-top: 0;
+  }
+  .orderSteps .pay h5 {
+    margin-top: 10px !important;
+    padding-bottom: 15px !important;
+  }
+  .restaurants {
+    padding: 30px 0;
+  }
+  .restaurants .restHeading {
+    text-align: center;
+  }
+  .restaurants .restHeading ul {
+    float: left !important;
+  }
+  footer {
+    text-align: center;
+  }
+  footer .row:last-child {
+    margin-top: 10px;
+  }
+  footer .main {
+    float: none !important;
+  }
+  footer .left {
+    margin-right: 0 !important;
+  }
+  footer .row:last-child h5 {
+    margin-top: 15px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .first {
+    position: static;
+  }
+  .first .order {
+    margin-top: 75px;
+  }
+  .first .order form button {
+    margin-top: 15px;
+  }
+  .first .chose .arrow {
+    top: 65px !important;
+    right: 80px !important;
+    transform: rotate(90deg);
+  }
+  .first .chose .arrow_dot {
+    top: 90px !important;
+    left: 65px !important;
+    transform: rotate(90deg) scale(1, -1);
+  }
+  .popularFood {
+    padding-bottom: 20px;
+    margin-top: 0px;
+  }
+  .orderSteps .steps {
+    padding: 0;
+  }
+  .orderSteps .steps .block .arrow_step {
+    display: none;
+  }
+  .orderSteps .steps .block img.arrow_dotstep {
+    display: none;
+  }
+  .orderSteps .steps .block h5 {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .orderSteps .steps .block p {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  .orderSteps .steps .block:nth-child(2) {
+    margin-top: 0;
+  }
+  .orderSteps .pay h5 {
+    margin-top: 0px !important;
+    padding-bottom: 10px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .first {
+    position: static;
+  }
+  .first ul {
+    text-align: center;
+  }
+  .popularFood {
+    margin-top: 0px;
+  }
+  .orderSteps .steps .block .arrow_step {
+    display: none;
+  }
+  .orderSteps .steps .block img.arrow_dotstep {
+    display: none;
+  }
+  .restaurants {
+    padding: 30px 0;
+  }
+  .restaurants .restHeading {
+    text-align: center;
+  }
+  .restaurants .restHeading ul {
+    float: none;
+    text-align: center;
+  }
+  .deliveryApps {
+    text-align: center;
+  }
+  .deliveryApps .phone {
+    visibility: hidden;
+  }
+  footer {
+    text-align: center;
+  }
+  footer .row:last-child {
+    margin-top: 10px;
+  }
+  footer .main {
+    float: none !important;
+  }
+  footer .left {
+    margin-right: 0 !important;
+  }
+  footer .row:last-child h5 {
+    margin-top: 15px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .first {
+    position: static;
+  }
+  .first header ul li {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .popularFood {
+    margin-top: 0px;
+  }
+  .orderSteps .block .arrow_step {
+    left: 200px !important;
+  }
+  .orderSteps .block .arrow_dotstep {
+    left: 200px !important;
+  }
+}
